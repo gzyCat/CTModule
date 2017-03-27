@@ -17,7 +17,7 @@
  *  Use this to annotation a `module`
  *  like this: @AppLordModule()
  */
-#define CTModule(modName) \
+#define CTAppModule(modName) \
 protocol CTModule; \
 char * kAppLordModule_##modName CTAnnotationDATA = "M:"#modName"";
 
