@@ -16,6 +16,7 @@
 		782854781E88BC4000832845 /* CTMediator_ExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782854771E88BC4000832845 /* CTMediator_ExtensionTests.m */; };
 		782854831E88BC4000832845 /* CTMediator_ExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782854821E88BC4000832845 /* CTMediator_ExtensionUITests.m */; };
 		782854931E88BE6C00832845 /* CTMediatorContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 782854921E88BE6C00832845 /* CTMediatorContext.m */; };
+		7828549D1E88E4BC00832845 /* ModuleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7828549C1E88E4BC00832845 /* ModuleTest.m */; };
 		89B2F2E7AD8FECADAC381AD4 /* libPods-CTMediator-Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9B2CCAD038E4DDD086B73E /* libPods-CTMediator-Extension.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,8 @@
 		782854941E88BE8D00832845 /* CTContextMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTContextMacros.h; sourceTree = "<group>"; };
 		782854951E88BF9000832845 /* CTModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTModule.h; sourceTree = "<group>"; };
 		782854991E88DF5900832845 /* CTMediator-Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator-Extension.h"; sourceTree = "<group>"; };
+		7828549B1E88E4BC00832845 /* ModuleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleTest.h; sourceTree = "<group>"; };
+		7828549C1E88E4BC00832845 /* ModuleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleTest.m; sourceTree = "<group>"; };
 		7E9B2CCAD038E4DDD086B73E /* libPods-CTMediator-Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTMediator-Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -132,6 +135,8 @@
 				7828546B1E88BC4000832845 /* LaunchScreen.storyboard */,
 				7828546E1E88BC4000832845 /* Info.plist */,
 				7828545D1E88BC4000832845 /* Supporting Files */,
+				7828549B1E88E4BC00832845 /* ModuleTest.h */,
+				7828549C1E88E4BC00832845 /* ModuleTest.m */,
 			);
 			path = "CTMediator-Extension";
 			sourceTree = "<group>";
@@ -371,6 +376,7 @@
 				782854621E88BC4000832845 /* AppDelegate.m in Sources */,
 				7828545F1E88BC4000832845 /* main.m in Sources */,
 				782854931E88BE6C00832845 /* CTMediatorContext.m in Sources */,
+				7828549D1E88E4BC00832845 /* ModuleTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

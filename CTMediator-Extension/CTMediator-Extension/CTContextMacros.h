@@ -11,11 +11,11 @@
 
 #define AppModule "AppModuleLord"
 
-#define CTAnnotationDATA __attribute((used, section("__DATA,"#AppModule"")))
+#define CTAnnotationDATA __attribute((used, section("__DATA,"AppModule"")))
 
 /**
  *  Use this to annotation a `module`
- *  like this: @AppLordModule()
+ *  like this: @CTAppModule(module)
  */
 #define CTAppModule(modName) \
 protocol CTModule; \
