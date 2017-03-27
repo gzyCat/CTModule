@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "CTMediator-Extension"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "CTMediator-Extension"
 
   s.description  = <<-DESC
