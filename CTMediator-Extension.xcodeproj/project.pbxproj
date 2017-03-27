@@ -15,6 +15,8 @@
 		7828546D1E88BC4000832845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7828546B1E88BC4000832845 /* LaunchScreen.storyboard */; };
 		782854781E88BC4000832845 /* CTMediator_ExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782854771E88BC4000832845 /* CTMediator_ExtensionTests.m */; };
 		782854831E88BC4000832845 /* CTMediator_ExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782854821E88BC4000832845 /* CTMediator_ExtensionUITests.m */; };
+		782854931E88BE6C00832845 /* CTMediatorContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 782854921E88BE6C00832845 /* CTMediatorContext.m */; };
+		89B2F2E7AD8FECADAC381AD4 /* libPods-CTMediator-Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9B2CCAD038E4DDD086B73E /* libPods-CTMediator-Extension.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24AAF2FBB5CB22FAED572E8D /* Pods-CTMediator-Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediator-Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CTMediator-Extension/Pods-CTMediator-Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		2CB7FF1A126279588AAE3F44 /* Pods-CTMediator-Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediator-Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTMediator-Extension/Pods-CTMediator-Extension.release.xcconfig"; sourceTree = "<group>"; };
 		7828545A1E88BC4000832845 /* CTMediator-Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CTMediator-Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7828545E1E88BC4000832845 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		782854601E88BC4000832845 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,11 @@
 		7828547E1E88BC4000832845 /* CTMediator-ExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CTMediator-ExtensionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		782854821E88BC4000832845 /* CTMediator_ExtensionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTMediator_ExtensionUITests.m; sourceTree = "<group>"; };
 		782854841E88BC4000832845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782854911E88BE6C00832845 /* CTMediatorContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediatorContext.h; sourceTree = "<group>"; };
+		782854921E88BE6C00832845 /* CTMediatorContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediatorContext.m; sourceTree = "<group>"; };
+		782854941E88BE8D00832845 /* CTContextMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTContextMacros.h; sourceTree = "<group>"; };
+		782854951E88BF9000832845 /* CTModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTModule.h; sourceTree = "<group>"; };
+		7E9B2CCAD038E4DDD086B73E /* libPods-CTMediator-Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTMediator-Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B2F2E7AD8FECADAC381AD4 /* libPods-CTMediator-Extension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4525BAAD6C6D7CF26C12BFF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E9B2CCAD038E4DDD086B73E /* libPods-CTMediator-Extension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		782854511E88BC4000832845 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +103,8 @@
 				782854761E88BC4000832845 /* CTMediator-ExtensionTests */,
 				782854811E88BC4000832845 /* CTMediator-ExtensionUITests */,
 				7828545B1E88BC4000832845 /* Products */,
+				92B6374153646594D6EC6541 /* Pods */,
+				4525BAAD6C6D7CF26C12BFF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +121,7 @@
 		7828545C1E88BC4000832845 /* CTMediator-Extension */ = {
 			isa = PBXGroup;
 			children = (
+				782854901E88BE1200832845 /* CTMediator-Extension */,
 				782854601E88BC4000832845 /* AppDelegate.h */,
 				782854611E88BC4000832845 /* AppDelegate.m */,
 				782854631E88BC4000832845 /* ViewController.h */,
@@ -140,6 +161,26 @@
 			path = "CTMediator-ExtensionUITests";
 			sourceTree = "<group>";
 		};
+		782854901E88BE1200832845 /* CTMediator-Extension */ = {
+			isa = PBXGroup;
+			children = (
+				782854911E88BE6C00832845 /* CTMediatorContext.h */,
+				782854921E88BE6C00832845 /* CTMediatorContext.m */,
+				782854941E88BE8D00832845 /* CTContextMacros.h */,
+				782854951E88BF9000832845 /* CTModule.h */,
+			);
+			path = "CTMediator-Extension";
+			sourceTree = "<group>";
+		};
+		92B6374153646594D6EC6541 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24AAF2FBB5CB22FAED572E8D /* Pods-CTMediator-Extension.debug.xcconfig */,
+				2CB7FF1A126279588AAE3F44 /* Pods-CTMediator-Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 782854871E88BC4000832845 /* Build configuration list for PBXNativeTarget "CTMediator-Extension" */;
 			buildPhases = (
+				92D8C58E6019AD510732D077 /* [CP] Check Pods Manifest.lock */,
 				782854561E88BC4000832845 /* Sources */,
 				782854571E88BC4000832845 /* Frameworks */,
 				782854581E88BC4000832845 /* Resources */,
+				D3F0AF8C9772DC9CA33FFCD7 /* [CP] Embed Pods Frameworks */,
+				A50E5895ED3365EB66418137 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +312,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		92D8C58E6019AD510732D077 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A50E5895ED3365EB66418137 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTMediator-Extension/Pods-CTMediator-Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3F0AF8C9772DC9CA33FFCD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTMediator-Extension/Pods-CTMediator-Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		782854561E88BC4000832845 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -276,6 +368,7 @@
 				782854651E88BC4000832845 /* ViewController.m in Sources */,
 				782854621E88BC4000832845 /* AppDelegate.m in Sources */,
 				7828545F1E88BC4000832845 /* main.m in Sources */,
+				782854931E88BE6C00832845 /* CTMediatorContext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +515,7 @@
 		};
 		782854881E88BC4000832845 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24AAF2FBB5CB22FAED572E8D /* Pods-CTMediator-Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CTMediator-Extension/Info.plist";
@@ -433,6 +527,7 @@
 		};
 		782854891E88BC4000832845 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB7FF1A126279588AAE3F44 /* Pods-CTMediator-Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CTMediator-Extension/Info.plist";
@@ -507,6 +602,7 @@
 				782854891E88BC4000832845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7828548A1E88BC4000832845 /* Build configuration list for PBXNativeTarget "CTMediator-ExtensionTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +611,7 @@
 				7828548C1E88BC4000832845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7828548D1E88BC4000832845 /* Build configuration list for PBXNativeTarget "CTMediator-ExtensionUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +620,7 @@
 				7828548F1E88BC4000832845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
