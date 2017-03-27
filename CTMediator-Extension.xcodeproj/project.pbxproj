@@ -59,6 +59,7 @@
 		782854921E88BE6C00832845 /* CTMediatorContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediatorContext.m; sourceTree = "<group>"; };
 		782854941E88BE8D00832845 /* CTContextMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTContextMacros.h; sourceTree = "<group>"; };
 		782854951E88BF9000832845 /* CTModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTModule.h; sourceTree = "<group>"; };
+		782854991E88DF5900832845 /* CTMediator-Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator-Extension.h"; sourceTree = "<group>"; };
 		7E9B2CCAD038E4DDD086B73E /* libPods-CTMediator-Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTMediator-Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -168,6 +169,7 @@
 				782854921E88BE6C00832845 /* CTMediatorContext.m */,
 				782854941E88BE8D00832845 /* CTContextMacros.h */,
 				782854951E88BF9000832845 /* CTModule.h */,
+				782854991E88DF5900832845 /* CTMediator-Extension.h */,
 			);
 			path = "CTMediator-Extension";
 			sourceTree = "<group>";
